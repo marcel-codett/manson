@@ -119,3 +119,36 @@ body {
 }
 /* task list */
 
+
+/* overwrite bootstrap styles */
+.btn {
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-wrap: wrap;
+}
+.card-header {
+    flex-wrap: wrap;
+}
+
+.container-fluid {
+    flex-wrap: nowrap;
+}
+
+
+@media (max-width: 450px) {
+    .vp-450 {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .card {
+        background-color: transparent;
+    }
+}
+/* end of overwriting bootstrap styles */
+
+
+
