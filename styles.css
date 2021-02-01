@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat' , sans-serif;
+    background-color: #eee;
+}
+
+/* navbar  */
+.sidebar {
+    height: 100vh;
+  
+}
+
+.bottom-border {
+    border-bottom: 1px solid #fff;
+}
+
+.sidebar-link {
+    transition: all .4s;
+}
+
+.sidebar-link:hover {
+    background-color: #202a2b93 ;
+    border-radius: 6px;
+}
+
+.current {
+    background-color: #111d1f;
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px #12191a93;
+    transition: all .4s;
+}
+
+.current:hover {
+    border-radius: 7px;
+    box-shadow: 3px 6px 20px;
+    transform: translateY(-2px);
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #eee;
+}
+
+.search-input:focus {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px groove #202a2b93;
+    transition: all .4s;
+}
+
+.search-button {
+    border-radius: 50%;
+    padding: 7px 13px;
+    transition: all .4s;
+}
+
+.search-button:hover {
+    background-color: white;
+    transform: translateY(-2px);
+}
+
+.icon-parent {
+    position: relative;
+
+}
+
+.icon-bullet::after {
+    content: "";
+    position: absolute;
+    background-color:  #111d1f;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    top: 7px;
+    left: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .top-nav {
+        position: static;
+    }   
+    
+    .side-nav {
+        position: static;
+        height: auto;
+    }
+}
+
+/* end of navbar  */
+
+/* cards */
+.card-common {
+    box-shadow: 1px 2px 5px rgb(180, 177, 177);
+    transition: all .4s;
+}
+
+.card-common:hover {
+    box-shadow: 2px 3px 15px rgb(180, 177, 177);
+    transform: translateX(5px);
+}
+
+.btn:hover {
+    background: transparent;
+}
+/* end of cards */
+
+.page-hov:hover {
+    transform: translateY(-3px);
+    transition: all .4s;
+}
+
+
+
+/* task list */
+.task-border {
+    border-left: 3px solid #dc3545;
+}
+/* task list */
+
